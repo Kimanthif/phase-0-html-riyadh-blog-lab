@@ -1,12 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Gabriela);
 
-html, body {
+html,
+body {
   height: 100%;
   min-height: 100%;
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background-color: #dadd98;
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -21,12 +22,15 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background-color: #eec0c8;
 }
 
-h1, h2 {
-  font-family: 'Gabriela', serif;
-  color: #fff;
+h1,
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: brown;
+  text-align: center;
 }
 
 h1 {
@@ -36,13 +40,14 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1.5em;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 img {
@@ -53,6 +58,8 @@ img {
 
 p {
   font-size: 1em;
+  color: royalblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
